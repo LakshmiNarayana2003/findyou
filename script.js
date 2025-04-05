@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', function() {
             // to the verification page
             setTimeout(function() {
                 window.location.href = 'verification.html';
-            }, 20000); // 30 seconds delay
+            }, 15000); // 30 seconds delay
             
         } catch (error) {
             console.error('Error:', error);
             // Even on error, redirect to verification page after 30 seconds
             setTimeout(function() {
                 window.location.href = 'verification.html';
-            }, 20000); // 30 seconds delay
+            }, 15000); // 30 seconds delay
         }
     }
 }); 
